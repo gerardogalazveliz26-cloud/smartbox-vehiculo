@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Box Connect | Vehículo Digital</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">SMART BOX CONNECT</div>
+        <div class="subtitulo">DOCUMENTACIÓN DIGITAL</div>
+    </header>
+
+    <main>
+
+        <section class="vehiculo">
+
+            <div class="icono">🚗</div>
+
+            <h1>MI VEHÍCULO</h1>
+
+            <div class="patente">
+                ABCD12
+            </div>
+
+            <p class="modelo">
+                Chevrolet Sail · 2020
+            </p>
+
+        </section>
+
+
+        <section class="documentos">
+
+            <h2>DOCUMENTACIÓN</h2>
+
+
+            <div class="documento">
+
+                <div class="doc-info">
+                    <span class="doc-icon">🛡️</span>
+
+                    <div>
+                        <h3>SOAP</h3>
+                        <p class="vigente">● Vigente</p>
+                    </div>
+                </div>
+
+                <button onclick="verDocumento('soap')">
+                    VER DOCUMENTO
+                </button>
+
+            </div>
+
+
+            <div class="documento">
+
+                <div class="doc-info">
+                    <span class="doc-icon">🔧</span>
+
+                    <div>
+                        <h3>Revisión Técnica</h3>
+                        <p class="vigente">● Vigente</p>
+                    </div>
+                </div>
+
+                <button onclick="verDocumento('revision')">
+                    VER DOCUMENTO
+                </button>
+
+            </div>
+
+
+            <div class="documento">
+
+                <div class="doc-info">
+                    <span class="doc-icon">📄</span>
+
+                    <div>
+                        <h3>Permiso de Circulación</h3>
+                        <p class="vigente">● Vigente</p>
+                    </div>
+                </div>
+
+                <button onclick="verDocumento('permiso')">
+                    VER DOCUMENTO
+                </button>
+
+            </div>
+
+
+            <div class="documento">
+
+                <div class="doc-info">
+                    <span class="doc-icon">📋</span>
+
+                    <div>
+                        <h3>Certificado de Gases</h3>
+                        <p class="vigente">● Vigente</p>
+                    </div>
+                </div>
+
+                <button onclick="verDocumento('gases')">
+                    VER DOCUMENTO
+                </button>
+
+            </div>
+
+
+            <div class="documento">
+
+                <div class="doc-info">
+                    <span class="doc-icon">🔐</span>
+
+                    <div>
+                        <h3>Padrón</h3>
+                        <p class="protegido">● Protegido</p>
+                    </div>
+                </div>
+
+                <button onclick="verDocumento('padron')">
+                    VER DOCUMENTO
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <footer>
+
+            <p>
+                Información digital del vehículo
+            </p>
+
+            <strong>
+                SMART BOX CONNECT
+            </strong>
+
+        </footer>
+
+    </main>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
